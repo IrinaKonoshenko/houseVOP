@@ -1,0 +1,94 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Roboto;
+}
+
+:root {
+  --main-font: "Raleway";
+  --title-font: "Playfair Display";
+  --basic-font: "Roboto";
+  --white-color: #fff;
+  --yellow-color: #d4c17f;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.header.fixed {
+  background-color: #000;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  fill: var(--white-color);
+  padding-top: 30px;
+}
+
+.header-logo-text {
+  font-family: var(--main-font);
+  color: var(--white-color);
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  padding-top: 55px;
+}
+
+.header-item {
+  color: var(--white-color);
+  font-family: var(--main-font);
+}
+
+.header-item:hover,
+.header-item:focus {
+  color: var(--yellow-color);
+}
+
+.hero {
+  background-image: url(./image/hero.jpg);
+}

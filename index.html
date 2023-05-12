@@ -12,30 +12,61 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Raleway:wght@400;500&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <header class="header">
-      <div class="header-content">
-        <div class="header-logotip">
-          <div class="header-logo">
-            HouseVOP
-            <svg width="" height="">
-              <use href=""></use>
-            </svg>
+      <div class="container">
+        <div class="header-content">
+          <div class="header-logotip">
+            <div class="header-logo"></div>
+            <div class="header-logo-text">ЖИЛОЙ КОМПЛЕКС</div>
           </div>
-          <div class="header-logo-text">ЖИЛОЙ КОМПЛЕКС</div>
+          <nav class="header-menu">
+            <ul class="header-list list">
+              <li class="header-item">О комплексе</li>
+              <li class="header-item">Район</li>
+              <li class="header-item">Каталог квартир</li>
+              <li class="header-item">Ипотека</li>
+              <li class="header-item">Контакты</li>
+            </ul>
+          </nav>
         </div>
-        <nav class="header-menu">
-          <ul class="header-list">
-            <li class="header-item">О комплексе</li>
-            <li class="header-item">Район</li>
-            <li class="header-item">Каталог квартир</li>
-            <li class="header-item">Ипотека</li>
-            <li class="header-item">Контакты</li>
-          </ul>
-        </nav>
       </div>
     </header>
+    <div class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-title">Жилой комплекс в историческом центре</div>
+          <div class="hero-svg">
+            <svg>
+              <use href="./image/"></use>
+            </svg>
+            <div class="hero-contacts">
+              <ul class="hero-list list">
+                <li class="hero-item">
+                  <svg>
+                    <use></use>
+                  </svg>
+                </li>
+                <li class="hero-item"><div class="hero-address"></div></li>
+                <li class="hero-item">
+                  <svg>
+                    <use></use>
+                  </svg>
+                </li>
+                <li class="hero-item"><div class="hero-tel"></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
