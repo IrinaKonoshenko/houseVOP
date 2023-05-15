@@ -31,17 +31,29 @@
           </div>
           <nav class="header-menu">
             <ul class="header-list list">
-              <li class="header-item">О комплексе</li>
-              <li class="header-item">Район</li>
-              <li class="header-item">Каталог квартир</li>
-              <li class="header-item">Ипотека</li>
-              <li class="header-item">Контакты</li>
+              <li class="header-item">
+                <a class="header-link link" href="#hero">О комплексе</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="#advantages">Район</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="#apartments"
+                  >Каталог квартир</a
+                >
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="#form">Ипотека</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="#contacts">Контакты</a>
+              </li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
-    <div class="hero">
+    <div class="hero" id="hero">
       <div class="container">
         <div class="hero-content">
           <div class="hero-title-block">
@@ -71,7 +83,7 @@
         </div>
       </div>
     </div>
-    <div class="advantages">
+    <div class="advantages" id="advantages">
       <div class="container">
         <div class="advantages-content">
           <ul class="advantages-list list">
@@ -114,36 +126,95 @@
         </div>
       </div>
     </div>
-    <div class="apartments">
+    <div class="apartments" id="apartments">
       <div class="container">
         <div class="apartments-content">
-          <div class="apartments-title"></div>
-          <ul class="apartments-list">
+          <div class="apartments-title">Наши квартиры</div>
+          <div class="apartments-number">III</div>
+          <ul class="apartments-list list">
             <li class="apartments-item">
               <div class="apartments-item-content">
-                <img src="" alt="" class="apartments-img" />
-                <div class="apartments-text"></div>
+                <img
+                  src="./image/Rectangle.jpg"
+                  alt="Лофт — 3 этажа"
+                  class="apartments-img"
+                />
+                <div class="apartments-text">Лофт — 3 этажа</div>
               </div>
             </li>
             <li class="apartments-item">
               <div class="apartments-item-content">
-                <img src="" alt="" class="apartments-img" />
-                <div class="apartments-text"></div>
+                <img
+                  src="./image/Rectangle2.jpg"
+                  alt="Лофт — 2 этажа"
+                  class="apartments-img"
+                />
+                <div class="apartments-text">Лофт — 2 этажа</div>
               </div>
             </li>
             <li class="apartments-item">
               <div class="apartments-item-content">
-                <img src="" alt="" class="apartments-img" />
-                <div class="apartments-text"></div>
+                <img
+                  src="./image/Rectangle.jpg"
+                  alt="Лофт — 3 этажа"
+                  class="apartments-img"
+                />
+                <div class="apartments-text">Лофт — 3 этажа</div>
               </div>
             </li>
             <li class="apartments-item">
               <div class="apartments-item-content">
-                <img src="" alt="" class="apartments-img" />
-                <div class="apartments-text"></div>
+                <img
+                  src="./image/Rectangle2.jpg"
+                  alt="Лофт — 2 этажа"
+                  class="apartments-img"
+                />
+                <div class="apartments-text">Лофт — 2 этажа</div>
               </div>
             </li>
           </ul>
+        </div>
+      </div>
+    </div>
+    <div class="form" id="form">
+      <div class="container">
+        <div class="form-title">Хотите посмотреть?</div>
+        <div class="form-content">
+          <div class="form-description">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века. В то время некий безымянный печатник
+            создал большую коллекцию размеров и форм шрифтов, используя Lorem
+            Ipsum для распечатки образцов.
+          </div>
+          <form action="" class="form-application">
+            <div class="form-double">
+              <input type="text" class="form-input" placeholder="Ваше имя" />
+              <input type="text" class="form-input" placeholder="Ваш телефон" />
+            </div>
+            <div class="form-tx-btn">
+              <div class="form-text">
+                *Мы никому не передаем ваши данные. И не сохраняем ваш номер в
+                базу.
+              </div>
+              <div class="form-button">
+                <button class="form-btn">Посмотреть район</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="video">
+      <div class="container">
+        <div class="video-content">
+          <div class="video-img">
+            <img src="./image/video.jpg" alt="video" />
+            <svg width="100px" height="100px" class="video-svg">
+              <use href="./image/symbol-defs.svg#icon-play-button"></use>
+            </svg>
+          </div>
+          <div class="video-number">IV</div>
         </div>
       </div>
     </div>
