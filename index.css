@@ -55,6 +55,7 @@ body {
   right: 0;
   width: 100%;
   transition: background-color ease-in-out 0.3s;
+  z-index: 1;
 }
 
 .header.scrolling {
@@ -86,6 +87,9 @@ body {
   font-family: var(--main-font);
   text-decoration: none;
   cursor: pointer;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.05em;
 }
 
 .header-item:hover a,
@@ -94,7 +98,9 @@ body {
 }
 
 .hero {
-  background-image: url(./image/hero.jpg);
+  background: url(./image/hero.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-content {
@@ -216,7 +222,7 @@ body {
 .apartments-number {
   position: absolute;
   left: -226px;
-  top: -38px;
+  top: -28px;
   font-family: var(--title-font);
   font-weight: 700;
   font-size: 400px;
@@ -229,6 +235,7 @@ body {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+  padding-top: 100px;
 }
 
 .apartments-item {
@@ -242,11 +249,18 @@ body {
   font-family: var(--main-font);
   font-size: 24px;
   line-height: 1.16;
+  cursor: pointer;
+}
+
+.apartments-text:hover {
+  color: var(--yellow-color);
 }
 
 .form {
   background-color: var(--background-color);
-  background-image: url(./image/formimage.jpg);
+  background: url(./image/formimage.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .form-content {
@@ -274,9 +288,6 @@ body {
   margin: 0 auto;
 }
 
-.form-application {
-}
-
 .form-double {
   display: flex;
   gap: 30px;
@@ -287,14 +298,14 @@ body {
 .form-input {
   background-color: var(--white-color);
   opacity: 0.2;
-  padding: 12px 95px;
-  color: #bebebe;
+  padding: 12px 83px;
   border: none;
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.9;
   box-sizing: border-box;
   max-width: 255px;
+  outline: none;
 }
 
 .form-tx-btn {
