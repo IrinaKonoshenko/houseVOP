@@ -133,44 +133,44 @@
           <div class="apartments-number">III</div>
           <ul class="apartments-list list">
             <li class="apartments-item">
-              <div class="apartments-item-content">
+              <div class="apartments-image">
                 <img
                   src="./image/Rectangle.jpg"
                   alt="Лофт — 3 этажа"
                   class="apartments-img"
                 />
-                <div class="apartments-text">Лофт — 3 этажа</div>
               </div>
+              <div class="apartments-text">Лофт — 3 этажа</div>
             </li>
             <li class="apartments-item">
-              <div class="apartments-item-content">
+              <div class="apartments-image">
                 <img
                   src="./image/Rectangle2.jpg"
-                  alt="Лофт — 2 этажа"
+                  alt="Лофт — 3 этажа"
                   class="apartments-img"
                 />
-                <div class="apartments-text">Лофт — 2 этажа</div>
               </div>
+              <div class="apartments-text">Лофт — 2 этажа</div>
             </li>
             <li class="apartments-item">
-              <div class="apartments-item-content">
+              <div class="apartments-image">
                 <img
                   src="./image/Rectangle.jpg"
                   alt="Лофт — 3 этажа"
                   class="apartments-img"
                 />
-                <div class="apartments-text">Лофт — 3 этажа</div>
               </div>
+              <div class="apartments-text">Лофт — 3 этажа</div>
             </li>
             <li class="apartments-item">
-              <div class="apartments-item-content">
+              <div class="apartments-image">
                 <img
                   src="./image/Rectangle2.jpg"
-                  alt="Лофт — 2 этажа"
+                  alt="Лофт — 3 этажа"
                   class="apartments-img"
                 />
-                <div class="apartments-text">Лофт — 2 этажа</div>
               </div>
+              <div class="apartments-text">Лофт — 2 этажа</div>
             </li>
           </ul>
         </div>
@@ -188,18 +188,24 @@
             Ipsum для распечатки образцов.
           </div>
           <form action="" class="form-application">
-            <div class="form-double">
-              <input type="text" class="form-input" placeholder="Ваше имя" />
-              <input type="text" class="form-input" placeholder="Ваш телефон" />
+            <div class="form-item">
+              <div class="form-input">
+                <input type="text" placeholder="Ваше имя" />
+              </div>
             </div>
-            <div class="form-tx-btn">
+            <div class="form-item">
+              <div class="form-input">
+                <input type="text" placeholder="Ваш телефон" />
+              </div>
+            </div>
+            <div class="form-item">
               <div class="form-text">
                 *Мы никому не передаем ваши данные. И не сохраняем ваш номер в
                 базу.
               </div>
-              <div class="form-button">
-                <button class="form-btn">Посмотреть район</button>
-              </div>
+            </div>
+            <div class="form-item">
+              <button class="form-btn">Посмотреть район</button>
             </div>
           </form>
         </div>
@@ -222,13 +228,11 @@
       <div class="container">
         <div class="map-title">Район на карте</div>
         <div class="map-content">
-          <div>
-            <div class="map-number">V</div>
-          </div>
+          <div class="map-number">V</div>
           <div class="map-block">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2948.4058720740695!2d69.65575125474143!3d42.35518878871933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDLCsDIxJzE4LjciTiA2OcKwMzknMjcuMyJF!5e0!3m2!1sru!2skz!4v1684268950481!5m2!1sru!2skz"
-              width="1110"
+              width="1100"
               height="358"
               style="border: 0"
               allowfullscreen=""
@@ -243,20 +247,26 @@
       <div class="container">
         <div class="questions-title">Есть вопросы?</div>
         <div class="questions-form">
-          <div class="questions-form-text">
-            *Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
+          <div class="questions-form-item">
+            <div class="questions-form-text">
+              *Мы никому не передаем ваши данные. И не сохраняем ваш номер в
+              базу.
+            </div>
           </div>
-          <input
-            type="text"
-            class="questions-form-input"
-            placeholder="Ваше имя"
-          />
-          <input
-            type="text"
-            class="questions-form-input"
-            placeholder="Ваш телефон"
-          />
-          <button class="questions-form-btn">Посмотреть район</button>
+
+          <div class="questions-form-item">
+            <div class="form-input">
+              <input type="text" placeholder="Ваше имя" />
+            </div>
+          </div>
+          <div class="questions-form-item">
+            <div class="form-input">
+              <input type="text" placeholder="Ваш телефон" />
+            </div>
+          </div>
+          <div class="questions-form-item">
+            <button class="questions-form-btn">Посмотреть район</button>
+          </div>
         </div>
       </div>
     </div>
@@ -269,18 +279,18 @@
             </div>
           </div>
           <ul class="footer-list list">
-            <li class="footer-item">О комплексе</li>
-            <li class="footer-item">Район</li>
-            <li class="footer-item">Каталог квартир</li>
-            <li class="footer-item">Ипотека</li>
-            <li class="footer-item">Контакты</li>
+            <li class="footer-item"><a href="#">О комплексе</a></li>
+            <li class="footer-item"><a href="#">Район</a></li>
+            <li class="footer-item"><a href="#">Каталог квартир</a></li>
+            <li class="footer-item"><a href="#">Ипотека</a></li>
+            <li class="footer-item"><a href="#">Контакты</a></li>
           </ul>
           <ul class="footer-list list">
-            <li class="footer-item">О комплексе</li>
-            <li class="footer-item">Район</li>
-            <li class="footer-item">Каталог квартир</li>
-            <li class="footer-item">Ипотека</li>
-            <li class="footer-item">Контакты</li>
+            <li class="footer-item"><a href="#">О комплексе</a></li>
+            <li class="footer-item"><a href="#">Район</a></li>
+            <li class="footer-item"><a href="#">Каталог квартир</a></li>
+            <li class="footer-item"><a href="#">Ипотека</a></li>
+            <li class="footer-item"><a href="#">Контакты</a></li>
           </ul>
           <div class="footer-social-block">
             <ul class="footer-list-social list">
@@ -289,32 +299,42 @@
               <li class="footer-item">Отдел продаж: 10:00 - 20:00</li>
               <li class="footer-item footer-item-email">
                 E-mail:
-                <div class="footer-email">vip@housevip.ru</div>
+                <a href="mailto:irina@mail.ru" class="footer-email"
+                  >vip@housevip.ru</a
+                >
               </li>
             </ul>
             <div class="footer-social-network">
               <ul class="footer-social-list list">
                 <li class="footer-social">
-                  <svg width="28.20px" height="20">
-                    <use href="./image/symbol-defs.svg#icon-youtube"></use>
-                  </svg>
+                  <a href="" target="_blank">
+                    <svg width="28.20px" height="20">
+                      <use href="./image/symbol-defs.svg#icon-youtube"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="footer-social">
-                  <svg width="35.05px" height="20px">
-                    <use href="./image/symbol-defs.svg#icon-vk"></use>
-                  </svg>
+                  <a href="" target="_blank">
+                    <svg width="35.05px" height="20px">
+                      <use href="./image/symbol-defs.svg#icon-vk"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="footer-social">
-                  <svg width="20px" height="20px">
-                    <use
-                      href="./image/symbol-defs.svg#icon-facebook-logo"
-                    ></use>
-                  </svg>
+                  <a href="" target="_blank">
+                    <svg width="20px" height="20px">
+                      <use
+                        href="./image/symbol-defs.svg#icon-facebook-logo"
+                      ></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="footer-social">
-                  <svg width="20px" height="20px">
-                    <use href="./image/symbol-defs.svg#icon-instagram"></use>
-                  </svg>
+                  <a href="" target="_blank">
+                    <svg width="20px" height="20px">
+                      <use href="./image/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
